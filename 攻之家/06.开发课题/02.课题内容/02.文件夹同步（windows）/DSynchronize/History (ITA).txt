@@ -1,0 +1,122 @@
+DSynchronize - History
+~~~~~~~~~~~~~~~~~~~~~~
+
+v  2.30.2
+
+- Fixato un bug nella copia dei file di grosse dimensioni che, occasionalmente, provocava il blocco del programma.
+
+v  2.30.1
+
+- Fixato un bug nella sincronizzazione temporizzata.
+
+v  2.30
+
+- Se si utilizza la funzione "Backup Changes" è ora possibile specificare anche il numero dei backup che si vuole mantenere.
+- Nel log, è ora possibile trovare l'elenco completo dei files sostituiti/modificati.
+- DSynchronize, di default, gira in bassa priorità in modo tale da influire in maniera minima sulle prestazioni del sistema.
+- Risolto un bug nella sincronizzazione dei path remoti nel caso si tratti della root di un disco.
+- Fix minori.
+
+v  2.28
+
+- DSynchronize è in grado di sincronizzare anche file con l'attributo di sola lettura, nascosto o di sistema.
+- Insieme ai singoli files, vengono copiati anche i loro attributi.
+- Fixato un bug nella modalità preview.
+- Ora anche i files Locked possono essere copiati.
+- Fixato un bug nella sincronizzazione sotto NT4.
+
+v  2.27
+
+- Ritocchi all'UI.
+- Fix minori.
+
+v  2.26
+
+- Migliorata la compatibilità della sincronizzazione via FTP.
+
+v  2.25
+
+- Aggiunta la possibilità di sincronizzare i Path anche su FTP.
+- Fixato il bug, introdotto con la versione 2.24, che impediva di utilizzare le variabili d'ambiente nei path.
+- Ora la finestra è ridimensionabile.
+
+v  2.24
+
+- Aggiunta la possibilità di sincronizzare soltanto il files modificati oltre una data prestabilita.
+- Aggiunta la modalità preview che consente di visualizzare le modifiche prima di scriverle sull'HD.
+
+v. 2.23
+
+- Risolto il bug che non permetteva di sincronizzare cartelle con più di 40000 files.
+
+v. 2.22
+
+- Aggiunto il supporto alle variabili d'ambiente, ora è possibile specificare anche percorsi tipo: "%USERPROFILE%\MyFolder".
+- Fixato un bug nella sincronizzazione in RealTime che, in alcuni sistemi, non replicava correttamente la cancellazione di intere cartelle.
+
+v. 2.21
+
+- Fixati alcuni bug minori.
+
+v. 2.20
+
+- Fixati alcuni bug minori.
+
+v. 2.19
+
+- Aggiunta la possibilità di far girare il programma come servizio (con un qualsiasi account).
+- Aggiunta l'opzione "Sound Advise" per avere o meno l'avviso sonoro al termine della sincronizzazione.
+
+v. 2.18
+
+- Migliorata la RealTimeSync.
+- Aggiunta la possibilità di effettuare la RealTimeSync in maniera bidirezionale.
+- Fixato il bug nella RealTimeSync che non sincronizzava il primo percorso della lista.
+
+v. 2.17
+
+- Ora mentre si sincronizzano file di grandi dimensioni il programma rimane responsivo ai comandi anche durante la procedura di aggiornamento/copia.
+- Fixati altri bug nella sincronizzazione Real-Time.
+
+v. 2.16
+
+- Fixati alcuni bug nella sincronizzazione Real-Time.
+
+v. 2.15
+
+- Fixato un bug che nei FS non NTFS dà un falso errore di autorizzazione.
+- Fixati altri bug minori.
+- Aggiunta l'opzione "Set idle priority".
+
+v. 2.14
+
+- Aggiunta l'opzione per la sincronizzazione in Tempo Reale.
+
+v. 2.13
+
+- Aggiunta l'opzione "Aggiorna solo i files più recenti"
+- Aggiunta l'opzione "Sincronizzazione bidirezionale" che consente di sincronizzare le cartelle scegliendo di volta in volta i files più recenti (sia che si trovino in Origini che in Destinazioni).
+
+v. 2.12
+
+- Ora, se si spunta "aggiungi la data alla destinazione" il formato è aaa-mmm-gg, in questo modo le cartelle appaiono ordinate sia alfabeticamente che temporalmente.
+- Fixato un bug nel salvataggio delle opzioni di temporizzazione.
+- Fixato un bug nella routine di sincronizzazione remota.
+
+v. 2.11
+
+- Aggiunta l'opzione "Avvio automatico" per far partire automaticamente DSincronizza all'avvio del sistema.
+
+v. 2.10
+
+- Aggiunta la possibilità di specificare dei filtri per ogni percorso (tipo *.exe;*.com;nomefile.txt) e la possibilità di scegliere se sincronizzare o meno anche le sottodirectory.
+
+v. 2.04
+
+- Aggiunte una serie di opzioni alla "Sincronizzazione temporizzata" con possibilità di specificare in dettaglio l'ora e il giorno/i e/o l'intervallo di tempo tra una sincronizzazione e l'altra. 
+
+v. 2.00
+
+- Aggiunta l'opzione per creare il percorso di destinazione se questo non esiste.
+- Aggiunta l'opzione per aggiungere al percorso di destinazione la data e l'ora corrente, esempio: "C:\Destinazione" ---> "C:\Destinazione 10-07-2004 20-30".
+- Aggiunta la possibilità di spegnere il PC al termine della sincronizzazione.

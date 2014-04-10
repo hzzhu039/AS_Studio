@@ -1,0 +1,6 @@
+@ echo off
+xcopy d:\原文件夹\*.* E:\新文件夹\*.* /s /h /d /y
+echo 注释：有空格的文件（夹）名要用英文双引号引起来，后面三行是为了自动关闭本程序窗口
+exit
+start mstsc
+exit
